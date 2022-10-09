@@ -1,0 +1,25 @@
+version: 2 
+
+sources:
+  - name: postgres_greenery
+    database: raw
+    schema: public
+    
+    tables:
+      - name: users
+        loaded_at_field: created_at
+        description: ""
+      - name: addresses 
+        description: ""
+      - name: events
+        loaded_at_field: created_at
+        description: ""
+      - name: orders
+        description: ""
+      - name: products
+        description: ""
+      - name: order_items
+        description: ""
+      - name: promos
+        loaded_at_field: created_at
+        description: ""
