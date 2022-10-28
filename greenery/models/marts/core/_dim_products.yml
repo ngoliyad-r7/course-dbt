@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: dim_products
+    description: "Product dimension table"
+    columns:
+      - name: product_id
+        description: "Product Id"
+        tests:
+
+      - name: price
+        description: "Product Price"
+        tests:
+
+      - name: inventory
+        description: "Amount of Inventory "
+        tests:
+
+      - name: name
+        description: "Product Name"
+        tests:      
